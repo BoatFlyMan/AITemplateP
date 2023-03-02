@@ -21,7 +21,7 @@ from aitemplate.testing import detect_target
 
 # pylint: disable=W0102
 
-USE_CUDA = true#detect_target().name() == "cuda"
+USE_CUDA = True#detect_target().name() == "cuda"
 
 
 def get_shape(x):
